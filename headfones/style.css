@@ -1,0 +1,237 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+body {
+    background-color:#2F4F4F;
+    }
+
+h1, h3{
+    font-family: 'Varela Round', sans-serif;
+    
+    border-radius: 15px;
+    padding: 20px;
+    
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+height: 90vh;
+background-size: cover;
+background-position: center ;
+font-family: 'Varela Round', sans-serif;
+flex: 1;
+margin: 5px;
+position: relative;
+}
+
+.smth{
+    position:static;
+    top: 15px;
+    left: 40px;
+    border-radius: 10px;
+    color: #E5DCC3;
+    font-size: 15px;
+    margin-left: 10px;
+    opacity: 0;
+}
+
+h4{
+    position:static;
+    top: 15px;
+    left: 40px;
+    border-radius: 10px;
+    color: #E5DCC3;
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+
+.par{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: black;
+    background-color: #E5DCC3;
+    font-size: 0;
+    border-radius: 3px;
+}
+
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0;
+    color: rgb(255, 241, 38);
+}
+
+.selected{
+    flex:4;
+}
+
+.selected h4{
+    font-size: 25px;
+    transition: all 1s ease-in;
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.selected .par{
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+
+.selected .price{
+    font-size: 35px;
+    transition: all 1s ease-in;
+    margin-left: 10px;
+}
+
+
+brand{
+    font-family: 'Varela Round', sans-serif;
+    font-size:30px ;   
+}
+.one {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/razer-barracuda-x-rz04-03800100-r3m1/250.jpg');
+    border-radius: 10px;
+    }
+    
+    .two {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/steelseries-arctis-1-61427/250.jpg');
+    border-radius: 10px;
+}
+    
+    .three {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/steelseries-arctis-prime-61487/250.jpg');
+    border-radius: 10px;
+}
+    
+    .four {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/steelseries-arctis-5-black-2019-edition-61504/250.jpg');
+    border-radius: 10px;
+}
+    
+    .five {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/steelseries-arctis-5-white-2019-edition-61507/250.jpg');
+    border-radius: 10px;
+}
+    
+    .six {
+    background-image: url('https://www.3ona51.com/images/products/gaming-headphones/steelseries-arctis-pro-gamedac-61453/250.jpg');
+    border-radius: 10px;
+}
+    
+
+    .text-input{
+        background-color:#2F4F4F;
+        padding: 12px 20px;
+        border: none;
+    }
+
+    .btn {
+        background-color: #D8E9A8;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 30px;
+        width: 300px;
+        border-radius: 20px;
+        
+        }
+
+    
+
+   
+
+
+
+
+.clock{
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    align-items: center;
+    color: black;
+    
+}
+
+
+
+.days, .hours, .minutes, .seconds{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.red{
+    font-size: 60px;
+    border: none;
+    font-family: 'Staatliches', cursive;
+    color: rgb(167, 20, 20);
+}
+
+
+
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+
+     
+@media all and (max-width: 500px){
+    .container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    h3, h1{
+        font-size: 20px;
+    }
+   
+
+    brand{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 10px;
+    }
+  .selected .price{
+    font-size: 20px;
+  }
+  .selected .par{
+    font-size: 15px;
+    
+}
+  .clock{
+    height: 300px;
+    width: 150px;
+    margin-left: 8px;
+}
+  .container{
+        flex-wrap: wrap;
+    }
+}
