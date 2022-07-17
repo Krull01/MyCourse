@@ -1,0 +1,94 @@
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  backdrop-filter: blur(3px);
+    }
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color:#FFFAFA;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 30px;
+}
+
+.family{
+    color: #FFFAFA;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prolog{
+    color:#FFFAFA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.features{
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0FFFF;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+h3,img, a{
+    align-self: center;
+}
+
+.list{
+    background-color: #ffffd2;
+    color: #7c7575;
+}
+
+h3{
+    color:#52616b;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price{
+    color:#52616b;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    align-self: center;
+}
+
+del{
+    background-color: #B0E0E6;
+}
+
+ins{
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-7deg);
+}
+
+.cta{
+    background-color: #4682B4;
+    color: #ffffd2;
+    font-size:  30px;
+    border-radius: 10px;
+    align-self: center;
+}
+
