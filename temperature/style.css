@@ -1,0 +1,98 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1637662168111-6c7e018fa515?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdoZXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  backdrop-filter: blur(3px);
+    }
+    
+    
+    
+    #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(199, 100, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    }
+
+    #header{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+
+    #input {
+        background-color: rgba(215, 127, 171, 0.3);
+        border-radius: 20px;
+        border: 4px solid #F0F8FF;
+        padding: 20px;
+        font-size: 20px;
+        
+        }
+
+        #input:focus{
+            background-color: #fff;
+        }
+
+        #when-where{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #city{
+            color: #FFFF00;
+            font-size: 50px;
+            font-weight: 400;
+            text-shadow: 2px 5px black;
+            
+        }
+
+        #date{
+            color: #FFFF00;
+            font-size: 30px;
+            text-shadow: 2px 5px black;
+            
+        }
+
+        #now{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #temperature{
+            color: #FFFF00;
+            font-size: 100px;
+            font-weight: bold;
+            text-shadow: 5px 10px black;
+            margin: 0;
+            font-style: oblique;
+        }
+
+        #feelsLike{
+            color: #FFFF00;
+            font-size: 40px;
+            font-weight: normal;
+            text-shadow: 2px 5px black;
+        }
+        #conditions{
+            color: #FFFF00;
+            font-size: 40px;
+            font-weight: normal;
+            font-style: oblique;
+            text-shadow: 2px 5px black;
+            
+        }
+
+        #variation{
+            color: #FFFF00;
+            font-size:20px;
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: 2px 5px black;
+            
+        }
