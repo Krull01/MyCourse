@@ -1,0 +1,214 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 90%;
+/* border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+/*    height: 100px;*/
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#brand{
+   /* float: left; */
+    flex: 50%;
+    min-width: 425px;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100px;
+    color: #86188f;
+    text-decoration: none;
+}
+
+#searchbox{
+/*    float: right;*/
+    flex: 50%;
+    background: linear-gradient(#e4f2b9, #b7e953);
+    background: -webjit-linear-gradient(#e4f2b9, #b7e953);
+    background: -o-linear-gradient(#e4f2b9, #b7e953);
+    background: -moz-linear-gradient(#e4f2b9, #b7e953);
+    min-width: 400px;
+ /*   height: 50px; */
+    padding: 20px 20px 0 20px;
+/*    margin-top: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    background: white url(imagies/search.png) right center no-repeat;
+    border: 1px solid #c8d03e;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;
+    font-size: 15px;
+    border: 1px solid #dcd5e1;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+/*    height: 70px;*/
+    background: linear-gradient(#f8f594, #d5d533);
+    background: -webkit-linear-gradient(#f8f594, #d5d533);
+    background: -o-linear-gradient(#f8f594, #d5d533);
+    background: -moz-linear-gradient(#f8f594, #d5d533);
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+#menu a{
+/*    float: left;*/
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7
+}
+
+#menu a:last-child{
+    border-right: none;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu a:hover, #menu a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b314bd; 
+}
+
+@media screen and (max-width: 700px){
+   #menu{
+   flex-direction: column;
+   align-content: center;
+        } 
+    #menu a{
+        border-right: none;
+    }
+}
+
+#introduction{
+    background: linear-gradient(#e5f2bb, #b7b952);
+     background: -webkit-linear-gradient(#e5f2bb, #b7b952);
+     background: -moz-linear-gradient(#e5f2bb, #b7b952);
+     background: -o-linear-gradient(#e5f2bb, #b7b952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h1{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25 px;
+    color: #628f19;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #b314db;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    padding-top: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #b314bd;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+
+
+#leftsidebar ul li{
+    padding: 2px 0 6px 10px;
+    list-style-image: url(imagies/arrov.png);
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 10px;
+    list-style-image: url(imagies/tick.png);
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    background: -webkit-linear-gradient(#f6f390, #d5d533);
+    background: -o-linear-gradient(#f6f390, #d5d533);
+    background: -moz-linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
